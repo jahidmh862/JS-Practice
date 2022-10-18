@@ -1,27 +1,11 @@
-// var a = 10 
 
-// a **= 2
-// a *= 2
-// a += 2
-// a -= 2
-// a /= 2
-// a %= 2
-
-// document.write(a)
-
-
-// var jahid = 500
-
-// var hasan = jahid + 200
-
-// document.write(hasan)
 function marksheet (){
 
     var num = document.getElementById('num').value
 
     var result = document.getElementById('result')
     
-if(num >= 80 && num <= 100){
+if(num >= 80 && num >= 100){
     result.innerText = ' I Am A+';
 }
 else if(num >= 70 && num <= 79){
