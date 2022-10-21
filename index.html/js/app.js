@@ -5,7 +5,7 @@ function marksheet (){
 
     var result = document.getElementById('result')
     
-if(num >= 80 && num >= 100){
+if(num >= 80 && num <= 100){
     result.innerText = ' I Am A+';
 }
 else if(num >= 70 && num <= 79){
@@ -24,7 +24,7 @@ else if(num >= 30 && num <= 39){
     result.innerText = 'D';
 }
 else if(num >= 0 && num <= 33){
-   result.innerText = 'Tui FAIL miya jah bhag';
+   result.innerText = 'FAIL';
 }
 else{
     alert('failed');
